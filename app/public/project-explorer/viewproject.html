@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+            <a class="navbar-brand" href="index.html">Project Explorer</a>
+            <form class="form-inline" name="searchForm">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search Projects" aria-label="Search">
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="createproject.html">Submit</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="register.html">Sign Up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+            </nav>
+    </header>
+
+    <main>
+        <div class="container pt-5 pb-5">
+            <h3>Project 1</h3>
+            <div class="row bg-light p-3">
+                <div class="col">
+                    Created by <br> Jane Doe
+                </div>
+                <div class="col">
+                    Date Created <br> 00/00/0000
+                </div>
+                <div class="col">
+                    Last Updated <br> 01/01/0001
+                </div>
+                <div class="col  d-flex justify-content-end">
+                    <button type="submit" class="btn btn-primary mb-3">Edit Project</button>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <form>
+                        <h6>Project Abstract</h6>
+                        <div class="form-group pt-3">
+                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sed, nesciunt quibusdam itaque possimus ipsam quod praesentium qui, minima soluta facere id veniam obcaecati rerum asperiores cum deleniti dolor? Quidem.</p> 
+                        </div>
+                        <h6>Comments</h6>
+                        <div class="form-group">
+                            <textarea class="form-control" name="abstract" id="" cols="30" rows="10">Leave a comment</textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary mb-3">Submit</button>
+                        <div class="border-top pt-3">
+                            <span ></span>
+                            <p class="text-center"> No comments added yet</p>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                        <h6>Project Details</h6>
+                        <div class="card mt-3">
+                            <div class="card-header">
+                              Author(s)
+                            </div>
+                            <div class="card-body">
+                              <p class="card-text">Ade Chris</p>
+                            </div>
+                            <div class="card-footer">
+                                <p class="card-text text-primary">#web</p>
+                              </div>
+                        </div>
+                        <div class="card mt-3">
+                            <div class="card-header">
+                              Project files
+                            </div>
+                            <div class="card-body">
+                              <p class="card-text text-center">No file uploaded yet</p>
+                            </div>
+                        </div>
+                </div>
+    </main>
+    <footer class="container bg-light">
+        <p class="p-2 text-right"> <span class="text-muted">Project Explorer &copy; 2020</span> Edconnect</p>
+    </footer>
+</body>
+</html>
